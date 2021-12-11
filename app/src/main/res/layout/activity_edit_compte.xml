@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    android:padding="16dp"
+    tools:context=".EditCompteActivity">
+
+    <TextView
+        android:id="@+id/titreInformationEleve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Informations du Compte"
+        android:textColor="#1D49CC"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/compteImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/titreInformationEleve"
+        android:layout_centerHorizontal="true"
+        android:padding="3dp"
+        android:src="@drawable/iic_add_photo" />
+
+    <EditText
+        android:id="@+id/txtNomPersonne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/compteImage"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_background_edit_text"
+        android:hint="Entrez le nom"
+        android:inputType="textPersonName|textCapWords"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtPrenomPersonne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNomPersonne"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_background_edit_text"
+        android:hint="Entrez le prenom"
+        android:inputType="textPersonName|textCapWords"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtEmailPersonne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPrenomPersonne"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_background_edit_text"
+        android:hint="Entrez l'email"
+        android:inputType="textEmailAddress|textCapWords"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtMdpPersonne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEmailPersonne"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_background_edit_text"
+        android:hint="Mot de passe temporaire"
+        android:inputType="textPassword|textCapWords"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/titreTypeCompte2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMdpPersonne"
+        android:layout_marginTop="16dp"
+        android:text="Type de Compte :"
+        android:textColor="#353535"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerTypeCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titreTypeCompte2"
+        android:layout_marginTop="16dp"
+        android:entries="@array/spinner_values"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnAjouterCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerTypeCompte"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_background_edit_text"
+        android:text="Modifier "
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">>
+    <item android:id="@+id/backItem"
+        android:icon="@drawable/ic_back_25"
+        android:title="Trier par priorité"
+        app:showAsAction="always">
+    </item>
+
+    <item android:id="@+id/sortingItemPriorite"
+        android:title="par priorité"
+        android:icon="@drawable/ic_flag_priority_24"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/sortingItemNom"
+        android:title="par Nom"
+        android:icon="@drawable/ic_sort_by_alpha_24"
+        app:showAsAction="always"
+        />
+</menu>

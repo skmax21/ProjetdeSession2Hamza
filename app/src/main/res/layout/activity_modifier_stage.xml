@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="SpeakableTextPresentCheck"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:background="@drawable/bck"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        tools:ignore="SpeakableTextPresentCheck">
+
+
+        <TextView
+            android:id="@+id/prioriteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="112dp"
+            android:text="@string/priorite"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <ImageView
+            android:id="@+id/imagePrioriteVisite"
+            android:layout_width="48dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="101dp"
+            app:layout_constraintStart_toEndOf="@+id/prioriteText"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@drawable/ic_baseline_flag_24" />
+
+        <TextView
+            android:id="@+id/Titre2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/entreprise_de_stage"
+            android:textColor="@color/DarkBlue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/prioriteText" />
+
+        <Spinner
+            android:background="@drawable/custom_spinner"
+            android:id="@+id/spinnerEntreprise"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Titre2"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextAdresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="Numéro et nom de la rue"
+            android:paddingLeft="10dp"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerEntreprise"
+            android:background="@drawable/custom_background_edit_text"/>
+
+        <EditText
+            android:id="@+id/editTextVille"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="Ville"
+            android:paddingLeft="10dp"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextAdresse"
+            android:background="@drawable/custom_background_edit_text"/>
+
+        <EditText
+            android:id="@+id/editTextpostal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="Code postal"
+            android:paddingLeft="10dp"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextVille"
+            android:background="@drawable/custom_background_edit_text"/>
+
+        <EditText
+            android:id="@+id/editTextProvince"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="Province"
+            android:paddingLeft="10dp"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextpostal"
+            android:background="@drawable/custom_background_edit_text"/>
+
+        <TextView
+            android:id="@+id/titre4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="STAGE"
+            android:textColor="@color/DarkBlue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextProvince" />
+
+        <TextView
+            android:id="@+id/titre5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/journee_de_stage"
+            android:textStyle="bold"
+            android:textColor="@color/greenApp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titre4" />
+
+        <CheckBox
+            android:id="@+id/checkBoxMercredi"
+            android:layout_width="109dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:button="@drawable/custum_checkbox"
+            android:padding="5dp"
+            android:text="Mercredi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titre5" />
+
+        <CheckBox
+            android:id="@+id/checkBoxJeudi"
+            android:layout_width="109dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:button="@drawable/custum_checkbox"
+            android:padding="5dp"
+            android:text="Jeudi"
+            app:layout_constraintBaseline_toBaselineOf="@+id/checkBoxMercredi"
+            app:layout_constraintStart_toEndOf="@+id/checkBoxMercredi" />
+
+        <CheckBox
+            android:id="@+id/checkBoxVendredi"
+            android:layout_width="109dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="16dp"
+            android:button="@drawable/custum_checkbox"
+            android:padding="5dp"
+            android:text="Vendredi"
+            app:layout_constraintBaseline_toBaselineOf="@+id/checkBoxJeudi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkBoxJeudi" />
+
+        <TextView
+            android:id="@+id/titre6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Horaire de stage"
+            android:textColor="@color/greenApp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxMercredi" />
+
+        <TextView
+            android:id="@+id/titre7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="24dp"
+            android:text="heure du début"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titre6" />
+
+        <EditText
+            android:id="@+id/textHeureDebutStage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="Choisir heure"
+            android:paddingLeft="10dp"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/titre7"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/custom_background_edit_text"/>
+
+
+        <TextView
+            android:id="@+id/titre8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="40dp"
+            android:text="heure de fin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titre7" />
+
+        <EditText
+            android:id="@+id/textHeureFinStage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="Choisir heure"
+            android:paddingLeft="10dp"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHeureDebutStage"
+            android:background="@drawable/custom_background_edit_text"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Horaire du dîner"
+            android:textStyle="bold"
+            android:textColor="@color/greenApp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titre8" />
+
+
+        <TextView
+            android:id="@+id/titre9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="24dp"
+            android:text="heure du début"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <EditText
+            android:id="@+id/textHeureDebutDiner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="Choisir heure"
+            android:paddingLeft="10dp"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/titre9"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/custom_background_edit_text"/>
+
+
+        <TextView
+            android:id="@+id/titre10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="40dp"
+            android:text="heure de fin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titre9" />
+
+        <EditText
+            android:id="@+id/textHeureFinDiner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="Choisir heure"
+            android:paddingLeft="10dp"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/titre10"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/custom_background_edit_text"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:textStyle="bold"
+            android:text="Frequence des visites (Par semaine)"
+            android:paddingLeft="10dp"
+            android:textColor="@color/greenApp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titre10" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupeVisites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+            <RadioButton
+                android:id="@+id/radioUneFois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_selector"
+                android:button="@android:color/transparent"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:text="1 fois"
+                android:textColor="@drawable/text_color" />
+
+            <RadioButton
+                android:id="@+id/radioDeuxFois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_selector"
+                android:button="@android:color/transparent"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:text="2 fois"
+                android:textColor="@drawable/text_color" />
+
+            <RadioButton
+                android:id="@+id/radioTroisFois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_selector"
+                android:button="@android:color/transparent"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:text="3 fois"
+                android:textColor="@drawable/text_color" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Durée moyenne des visites"
+            android:textColor="@color/greenApp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupeVisites" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroupeDureeVisites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+
+            <RadioButton
+                android:id="@+id/radio30Min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_selector"
+                android:button="@android:color/transparent"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:text="30 minutes"
+                android:textColor="@drawable/text_color" />
+
+            <RadioButton
+                android:id="@+id/radio45Min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_selector"
+                android:button="@android:color/transparent"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:text="45 minutes"
+                android:textColor="@drawable/text_color" />
+
+            <RadioButton
+                android:id="@+id/radio60Min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_selector"
+                android:button="@android:color/transparent"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:text="60 minutes"
+                android:textColor="@drawable/text_color" />
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/titre15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Disponibilités du tuteur de stage"
+            android:textColor="@color/greenApp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupeDureeVisites" />
+
+        <CheckBox
+            android:id="@+id/checkBoxMercrediAm"
+            android:layout_width="109dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:button="@drawable/custum_checkbox"
+            android:padding="5dp"
+            android:text="Mercredi AM"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titre15" />
+
+        <CheckBox
+            android:id="@+id/checkBoxJeudiAm"
+            android:layout_width="109dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:button="@drawable/custum_checkbox"
+            android:padding="5dp"
+            android:text="Jeudi AM"
+            app:layout_constraintEnd_toStartOf="@+id/checkBoxVendrediAm"
+            app:layout_constraintStart_toEndOf="@+id/checkBoxMercrediAm"
+            app:layout_constraintTop_toBottomOf="@+id/titre15" />
+
+        <CheckBox
+            android:id="@+id/checkBoxVendrediAm"
+            android:layout_width="109dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:button="@drawable/custum_checkbox"
+            android:padding="5dp"
+            android:text="Vendredi AM"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titre15" />
+
+        <CheckBox
+            android:id="@+id/checkBoxMercrediPm"
+            android:layout_width="109dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:button="@drawable/custum_checkbox"
+            android:padding="5dp"
+            android:text="Mercredi PM"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxMercrediAm" />
+
+        <CheckBox
+            android:id="@+id/checkBoxJeudiPm"
+            android:layout_width="109dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:button="@drawable/custum_checkbox"
+            android:padding="5dp"
+            android:text="@string/jeudi_pm"
+            app:layout_constraintEnd_toStartOf="@+id/checkBoxVendrediPm"
+            app:layout_constraintStart_toEndOf="@+id/checkBoxMercrediPm"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxJeudiAm" />
+
+        <CheckBox
+            android:id="@+id/checkBoxVendrediPm"
+            android:layout_width="109dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:button="@drawable/custum_checkbox"
+            android:padding="5dp"
+            android:text="Vendredi AM"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxVendrediAm" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Commentaires sur le stage"
+            android:textStyle="bold"
+            android:textColor="@color/greenApp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxMercrediPm" />
+
+        <EditText
+            android:id="@+id/commentaireSurStage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/commentaire"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/enregistrerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="Enregistrer"
+            android:background="@drawable/custom_button"
+            app:layout_constraintTop_toBottomOf="@+id/commentaireSurStage" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="Modification du stage"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GestionDesStages</string>
+    <string name="jeudi_pm">Jeudi PM</string>
+    <string name="priorite">Priorité :</string>
+    <string name="bienvenue_sur_stagestion">Bienvenue sur Stagestion</string>
+    <string name="entreprise_de_stage">ENTREPRISE DE STAGE</string>
+    <string name="journee_de_stage">Journée(s) de stage</string>
+
+    <string-array name="spinner_values">
+        <item>Admin</item>
+        <item>Professeur</item>
+        <item>Etudiant</item>
+    </string-array>
+    <string name="title_activity_google_maps">GoogleMaps</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="portraitView">Portrait</string>
+    <string name="landscapeView">Landscape</string>
+
+
+</resources>

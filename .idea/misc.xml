@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/drawable/custom_background_edit_text.xml" value="0.38697916666666665" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout-land/activity_ajouter_eleve.xml" value="0.3646384479717813" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout-land/activity_home.xml" value="0.3646384479717813" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout/activity_ajouter_eleve.xml" value="0.22322001282873638" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout/activity_ajouter_un_compte.xml" value="0.5546875" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout/activity_edit_compte.xml" value="0.45364583333333336" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout/activity_home.xml" value="0.31657608695652173" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout/activity_liste_eleves.xml" value="0.5546875" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout/activity_maps.xml" value="0.17980072463768115" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout/custom_grid_layout.xml" value="0.3378623188405797" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout/row.xml" value="0.5546875" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout/row2.xml" value="0.5390625" />
+        <entry key="..\:/Cours_CEGEP/AUTOMNE 2021/GestionDeStage/GestionDesStages/app/src/main/res/layout/row3.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/drawable/ic_ajouter_stage.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/drawable/ic_calendar.xml" value="0.36153846153846153" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout-land/activity_ajouter_eleve.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout-land/activity_home.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/activity_ajouter_eleve.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/activity_ajouter_un_compte.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/activity_calendar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/activity_connexion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/activity_edit_compte.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/activity_home.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/activity_liste_eleves.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/activity_liste_entreprises.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/activity_main.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/activity_maps.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/activity_modifier_stage.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/custom_grid_layout.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/row.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/rowentreprise.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/GestionDesStages-67152c8ddb76d61d9aa2fdb4ba506e8eedd38dd0/app/src/main/res/layout/toolbar.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/Hamza/Downloads/ProjetSession/app/src/main/res/layout/activity_ajouter_un_compte.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Hamza/Downloads/ProjetSession/app/src/main/res/layout/activity_calendar.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/Hamza/Downloads/ProjetSession/app/src/main/res/layout/activity_connexion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hamza/Downloads/ProjetSession/app/src/main/res/layout/activity_home.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/Hamza/Downloads/ProjetSession/app/src/main/res/layout/activity_liste_eleves.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Hamza/Downloads/ProjetSession/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Users/Hamza/Downloads/ProjetSession/app/src/main/res/layout/activity_modifier_stage.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Hamza/Downloads/ProjetSession/app/src/main/res/layout/activity_modifier_stage_du_calendrier.xml" value="0.32100313479623827" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable-v24/commentaire.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable-v24/custum_checkbox.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable-v24/ic_baseline_flag_24.xml" value="0.29444444444444445" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable-v24/ic_checkbox_checked.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable-v24/ic_person_24.xml" value="0.29444444444444445" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable-v24/image_intro.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable-v24/radio_normal.xml" value="0.1" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable-v24/radio_selected.xml" value="0.1" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable-v24/radio_selector.xml" value="0.29444444444444445" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable-v24/text_color.xml" value="0.1" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_add_user.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_ajouter_stage.xml" value="0.3828125" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_checkbox_checked.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_edit_24.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_info.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_list.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_liste_de_controle.xml" value="0.3828125" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_map.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_moncompte.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/ic_office_building.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/drawable/map.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout-land/activity_ajouter_eleve.xml" value="0.33" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout-land/activity_home.xml" value="0.20767195767195767" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/activity_ajouter_eleve.xml" value="0.33" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/activity_ajouter_un_compte.xml" value="0.30978260869565216" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/activity_edit_compte.xml" value="0.2803442028985507" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/activity_liste_eleves.xml" value="0.3070652173913043" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/activity_liste_entreprises.xml" value="0.2453125" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/activity_maps.xml" value="0.2803442028985507" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/activity_modifier_stage.xml" value="0.2898550724637681" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/custom_grid_layout.xml" value="0.33" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/row.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/VIKA/Desktop/Autone 2021/ApplicationMobile/Travaux/Tp1/GestionDesStages/app/src/main/res/layout/rowentreprise.xml" value="0.2453125" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/drawable-v24/custom_spinner.xml" value="0.29444444444444445" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/drawable-v24/image_intro.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/drawable-v24/imageintro.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/drawable/ic_add_user.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/drawable/ic_info.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/drawable/ic_list.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/drawable/ic_map.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/drawable/ic_moncompte.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/drawable/ic_office_building.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/layout/activity_ajouter_eleve.xml" value="0.41040462427745666" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/layout/activity_home.xml" value="0.5546875" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/layout/activity_main.xml" value="0.5546875" />
+        <entry key="..\:/Users/mchem/AndroidStudioProjects/GestionDesStages/app/src/main/res/layout/custom_grid_layout.xml" value="0.5546875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
